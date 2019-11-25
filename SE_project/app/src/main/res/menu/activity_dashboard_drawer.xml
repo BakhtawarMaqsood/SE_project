@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_allC"
+            android:icon="@drawable/all"
+            android:title="All Courses" />
+        <item
+            android:id="@+id/nav_myC"
+            android:icon="@drawable/my"
+            android:title="My Courses" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Log Out" />
+
+
+
+
+    <item android:title="Communicate">
+        <item
+            android:id="@+id/nav_announcements"
+            android:icon="@drawable/snn"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/cont"
+            android:title="Contact Us" />
+    </item>
+    </group>
+
+</menu>
